@@ -1,0 +1,11 @@
+.casilla{
+    &.atinado{
+        background: red;
+    }
+    &.agua{
+        background: blue;
+    }
+    &.barco{
+        background: brown;
+    }
+}
