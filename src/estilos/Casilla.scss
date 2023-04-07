@@ -1,11 +1,13 @@
-.casilla{
-    &.atinado{
-        background: red;
-    }
-    &.agua{
-        background: blue;
-    }
-    &.barco{
-        background: brown;
+.tabla{
+    box-shadow: 5px 5px 10px black;
+    border: 1px solid black;
+    .casilla{
+        border: 1px solid black;
+        &.atinado{
+            background: rgb(245, 171, 171);
+        }
+        &.agua{
+            background: rgb(171, 171, 243);
+        }
     }
 }

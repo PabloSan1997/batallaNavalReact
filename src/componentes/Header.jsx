@@ -29,8 +29,8 @@ export function Header() {
     <header>
       <h1>Batalla naval</h1>
       <div className="resultados">
-        <h2>Partes destruidos:</h2>
-        {mos.perder ? <p>Juador {mos.jugador} ya no tiene barbos</p> :
+        <h2>Partes destruidas:</h2>
+        {mos.perder ? <p className='avizo'>Juador {mos.jugador} ya no tiene barcos</p> :
           (
             <>
               <p className="texto">Tuyos:{perdidas(tabla1)}/{obtenerTotales(tabla1)}</p>
